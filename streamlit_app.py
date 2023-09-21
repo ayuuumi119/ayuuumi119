@@ -2,6 +2,6 @@ import streamlit as st
 import random
 st.title("テンションアゲアゲアプリ")
 if st.button("引く"):
-    results = ["大吉","大大吉","お疲れ様！","きっといいことがあるよ","明日も頑張ってね","よく頑張ったね"]
+    results = ["アゲアゲ～↑","大大吉だよ神","お疲れ♡","明日はいいことあるっしょ！","ファミチキ食べたくね？","テンション上げてこ！"]
     result =random.choice(results)
     st.write(f"結果:{result}")
